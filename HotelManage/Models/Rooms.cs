@@ -8,7 +8,7 @@ namespace HotelManage.Models
     public class Rooms
     {
         public int RoomId { get; set; }
-        public string Room { get; set; }
+        public int RoomNumber { get; set; }
         public string RoomImage { get; set; }
         public decimal RoomPrice { get; set; }
         public int BookingStatusId { get; set; }
